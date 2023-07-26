@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "tailwind":"npx tailwindcss -i ./src/assets/main.css -o ./src/assets/output.css --watch"
+    "tailwind":"npx tailwindcss -i ./src/assets/main.css -o ./src/assets/output.css --watch",
+    "deploy":"npm run build && git add dist -f && git commit -m \"added dist folder\" && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "vue": "^3.3.4",
