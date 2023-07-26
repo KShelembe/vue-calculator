@@ -19,21 +19,21 @@
                 <Button text="."></Button>
             
             </div>
-            <div class="col-span-1 flex justify-around items-center flex-col">
+            <div class="col-span-1 flex justify-around items-center flex-col ml-2">
                 <Button class="operation">
-                    <img src="../assets/Group 52.png"/>
+                    <img src="../assets/Group52.png"/>
                 </Button>
                 <Button class="operation">
-                    <img src="../assets/Group 51.png"/>
+                    <img src="../assets/Group51.png"/>
                 </Button> 
                 <Button class="operation">
-                    <img src="../assets/Group 51 (1).png"/>
+                    <img src="../assets/Group51(1).png"/>
                 </Button>
                 <Button class="operation">
-                    <img src="../assets/Group 53.png"/>
+                    <img src="../assets/Group53.png"/>
                 </Button>
                 <Button class="equals">
-                    <img src="../assets/Group 55.png"/>
+                    <img src="../assets/Group55.png"/>
                 </Button>
             
             </div>

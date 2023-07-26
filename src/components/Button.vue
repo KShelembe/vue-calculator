@@ -33,4 +33,5 @@ export default {
     background: linear-gradient(180deg, #ED0E98 0%, #FE5A2D 100%);
     box-shadow: 0px 8px 24px 2px rgba(247, 60, 87, 0.40);
   }
+  
 </style>
