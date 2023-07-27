@@ -2,7 +2,7 @@
   <div class=" h-2/5 text-right flex justify-end items-end">
     <div class="h-20 m-10">
       <div class="mb-5 font-light text-xl">{{ expression }}</div>
-      <h2 class="text-5xl font-bold result" :class="resultClass" v-if="result">{{ shortenText(String(result),10) }}</h2>
+      <h2 class="text-5xl font-bold result" :class="resultClass" v-if="result">{{ formatNumberWithSpaces(shortenText(String(result),10))  }}</h2>
     </div>
     
   </div>
@@ -21,7 +21,15 @@ export default {
       } else {
         return text.slice(0, maxLength - 3) + "...";
       }
+    },
+    formatNumberWithSpaces(numberString) {
+    let digits = numberString.replace(/\s/g, '').split('');
+    const numberOfSpaces = Math.floor((digits.length - 1) / 3);
+    for (let i = 1; i <= numberOfSpaces; i++) {
+      digits.splice(-i * 3, 0, ' ');
     }
+    return digits.join('');
+  }
   }
 
 }

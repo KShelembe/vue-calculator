@@ -676,11 +676,6 @@ video {
   vertical-align: middle;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -714,4 +709,10 @@ video {
 
 body{
   font-family: arimo, sans-serif;
+}
+
+@media (min-width: 1024px) {
+  .lg\:p-5 {
+    padding: 1.25rem;
+  }
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class=" min-w-min bg-dark-calc text-white">
+    <div class="lg-w-full min-w-min bg-dark-calc text-white">
         <Display :expression="expression" :result="result" :resultClass="resultClass"/>
         <div class="grid grid-cols-4 bg-gray-calc h-3/5 rounded-t-3xl p-5 px-10 overflow-auto">
             <div class=" col-span-3 grid grid-cols-3">

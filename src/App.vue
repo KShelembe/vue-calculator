@@ -1,5 +1,5 @@
 <template>
-    <div class="p-5 flex justify-center align-middle w-full h-screen bg-zinc-900">
+    <div class="lg:p-5 flex justify-center align-middle w-full h-screen bg-zinc-900">
         <Calculator/>
     </div>
 </template>
