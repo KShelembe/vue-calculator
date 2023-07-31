@@ -1,4 +1,6 @@
-# vue-project
+# Vue-Calculator
+
+here is the live running [Vue Calculator](https://kshelembe.github.io/vue-calculator/)
 
 This template should help get you started developing with Vue 3 in Vite.
 
